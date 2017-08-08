@@ -15,7 +15,7 @@ const logo = require('./logo.svg');
 class App extends React.Component<{}, {}> {
   render() {
     let circle: Circle = {radius: 3};
-    let person1: Person = {name: 'Josh', age: '33'};
+    let person1: Person = {name: 'Josh', age: 33};
     return (
       <div className="App">
         <div className="App-header">
